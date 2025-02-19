@@ -1,0 +1,27 @@
+{
+    "snmp": [
+        "system.name",
+        "system.description",
+        "system.location",
+        "system.objectId",
+        "system.uptime",
+        "system.interfaces"
+    ],
+    "snmp.interface": [
+        "interface.index",
+        "interface.name",
+        "interface.alias",
+        "interface.operational.status",
+        "interface.admin.status",
+        "interface.description",
+        "interface.sent.error.packet",
+        "interface.received.error.packet",
+        "interface.sent.octets",
+        "interface.received.octets",
+        "interface.speed",
+        "interface.physical.address",
+        "interface.discard.packets",
+        "interface.in.packets",
+        "interface.out.packets"
+    ]
+}
